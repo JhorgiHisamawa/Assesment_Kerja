@@ -18,13 +18,13 @@ const authRoutes = require("./routes/authRoutes.js");
 app.use("/auth", authRoutes);
 
 const guruRoutes = require("./routes/guruRoutes.js");
-app.use("/guru", movieRoutes);
+app.use("/guru", guruRoutes);
 
-const reviewRoutes = require("./routes/nilaiRoutes.js");
-app.use("/nilai", reviewRoutes);
+const nilaiRoutes = require("./routes/nilaiRoutes.js");
+app.use("/nilai", nilaiRoutes);
 
-const userRoutes = require("./routes/siswaRoutes.js");
-app.use("/siswa", userRoutes);
+const siswaRoutes = require("./routes/siswaRoutes.js");
+app.use("/siswa", siswaRoutes);
 
 // Server running
 app.listen(3000, () => console.log("server running on port 3000"));
