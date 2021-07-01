@@ -1,0 +1,33 @@
+{
+  "name": "assesment_kerja",
+  "version": "1.0.0",
+  "description": "assesment no 18",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "mongoose-delete": "^0.5.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhorgiHisamawa/Assesment_Kerja.git"
+  },
+  "author": "Jhorgi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhorgiHisamawa/Assesment_Kerja/issues"
+  },
+  "homepage": "https://github.com/JhorgiHisamawa/Assesment_Kerja#readme"
+}
