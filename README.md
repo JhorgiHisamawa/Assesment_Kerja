@@ -2,10 +2,10 @@
 assesment_no_18
 
 ## API Daftar Nilai
-# Terdapat 3 role user, yaitu guru, murid, dan admin
-# Admin bertugas untuk memasukkan data guru dan siswa
-# Guru bertugas untuk memasukkan nilai siswa yang diampunya
-# Siswa dapat melihat data nilai sendiri yang diinputkan gurunya
+1.Terdapat 3 role user, yaitu guru, murid, dan admin
+2.Admin bertugas untuk memasukkan data guru dan siswa
+3.Guru bertugas untuk memasukkan nilai siswa yang diampunya
+4.Siswa dapat melihat data nilai sendiri yang diinputkan gurunya
 
 
 
